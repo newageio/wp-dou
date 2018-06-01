@@ -1,19 +1,22 @@
 <?php
-
-/**
+ /**
+ * WP Dou Shortcodes
  *
- * @link              http://github.com/newageio/wp-dou
- * @since             0.0.1
- * @package           Dou
+ * @package     io.newage.wp-dou
+ * @author      Roman Dutchak
+ * @copyright   2019 NewAge Ukraine LLC
+ * @license     Apache License, Version 2.0
  *
  * @wordpress-plugin
- * Plugin Name:       WP Dou Shortcodes
- * Version:           0.0.1
- * Author:            Roman Dutchak
- * Author URI:        https://newage.io
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       dou
+ * Plugin Name: WP Dou Shortcodes
+ * Plugin URI:  https://github.com/newageio/wp-dou
+ * Description: WP Shortcodes for DOU.ua
+ * Version:     0.0.1
+ * Author:      https://github.com/newageio
+ * Author URI:  https://example.com
+ * Text Domain: wp-dou
+ * License:     Apache License, Version 2.0
+ * License URI: http://www.apache.org/licenses/LICENSE-2.0
  */
 if ( ! defined( 'ABSPATH' ) ) exit;
 if ( ! defined( 'WPINC' ) ) {
