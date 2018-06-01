@@ -30,6 +30,7 @@ class Dou {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 		$this->loader->add_shortcode('dou_vacancies', new Dou_Shortcodes(), 'vacancies_shortcode');
+		$this->loader->add_shortcode('dou_vacancy', new Dou_Shortcodes(), 'vacancy_shortcode');
 	}
 
 	public function run() {

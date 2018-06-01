@@ -3,9 +3,20 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 class Dou_Shortcodes {
 
+	/**
+	 * Usage: [dou_vacancies company="newage-solutions-corp"]
+	 */
 	public function vacancies_shortcode($attr)
 	{
-		return $this->wcpt_get_template('dou-public-display.php', ['data' => Dou_Vacancies::load($attr['company'])]);
+		return $this->wcpt_get_template('dou-vacancies.php', ['data' => Dou_Vacancies::loadAll($attr['company'])]);
+	}
+
+	/**
+	 * Usage: [dou_vacancy url="https://jobs.dou.ua/companies/newage-solutions-corp/vacancies/50890/"]
+	 */
+	public function vacancy_shortcode($attr)
+	{
+		return $this->wcpt_get_template('dou-vacancy.php', ['data' => Dou_Vacancies::loadOne($attr['url'])]);
 	}
 
 	/**
