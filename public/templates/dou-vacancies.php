@@ -2,7 +2,6 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) exit;
 $id = 0;
-if (!isset($data['item'])) return '';
 ?>
 <div id="accordion">
     <?php foreach ($data->item as $item): ?>

@@ -2,7 +2,6 @@
 <?php
 if ( ! defined( 'ABSPATH' ) ) exit;
 $id = 0;
-if (empty($data)) return '';
 ?>
 <h1><?=$data->title?></h1>
 
