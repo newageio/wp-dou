@@ -2,10 +2,10 @@
 
 # Usage:
 Company vacancies:
-`[dou_vacancies company="newage-solutions-corp"]`
+```[dou_vacancies company="newage-solutions-corp"]```
 
 List  one:
-`[dou_vacancy url="https://jobs.dou.ua/companies/newage-solutions-corp/vacancies/50890/"]`
+```[dou_vacancy url="https://jobs.dou.ua/companies/newage-solutions-corp/vacancies/50890/"]```
 
 # Template ovveriding:
 1. /themes/theme/dou/$template_name
